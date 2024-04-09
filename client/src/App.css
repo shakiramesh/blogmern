@@ -1,0 +1,90 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.app {
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #dee2e6;
+  border-radius: .25rem;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 700px;
+  height: 200px;
+  display: flex; /* Align items */
+  align-items: center;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #555;
+}
+
+/* Style for form labels */
+.form-label {
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+
+/* Style for textarea */
+textarea.form-control {
+  resize: vertical;
+}
+
+/* Style for input boxes */
+.form-control {
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 100%; /* Fill the width of the parent container */
+  padding: 10px; /* Adjust as needed */
+}
+
+/* Style for input box focus */
+.form-control:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Style for buttons */
+.btn {
+  cursor: pointer;
+  font-size: larger;
+  color: #f4f4f4;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darken the color on hover */
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #c82333; /* Darken the color on hover */
+}
+
+/* Hover effect for cards */
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
